@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -54,3 +55,14 @@ figure=px.bar(data,x=data["highest scorer"],y=data["runs"],color="highest scorer
 figure.show()
 figure=px.bar(data,x=data["highest wickets"],title=" best bowler in world cup 2023")
 figure.show()
+# comparison between two innings
+plt.figure(figsize=(45,10))
+x=data['Date']
+y=data['1st innings score']
+y1=data['2nd innings score']
+plt.xlabel('Date');
+plt.ylabel('runs');
+plt.title('Score in both innings')
+plt.plot(x,y,ls='--',marker='*',ms=12)
+plt.plot(x,y1,ls='--',marker='o',ms=10)
+plt.legend(['1st innings score','2nd innings score'])
