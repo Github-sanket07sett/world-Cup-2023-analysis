@@ -64,5 +64,5 @@ plt.xlabel('Date');
 plt.ylabel('runs');
 plt.title('Score in both innings')
 plt.plot(x,y,ls='--',marker='*',ms=12)
-plt.plot(x,y1,ls='--',marker='o',ms=10)
+plt.plot(x,y1,marker='o',ms=10)
 plt.legend(['1st innings score','2nd innings score'])
