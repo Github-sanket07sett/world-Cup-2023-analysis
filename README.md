@@ -3,7 +3,7 @@
 
 I began by collecting and cleaning the dataset, ensuring that the information was accurate and ready for analysis. The dataset included details such as team performance, player statistics, match outcomes, and other relevant information.
 
-Once the data was prepared, I utilized popular Python libraries such as Pandas  and plotly to conduct exploratory data analysis. I delved into team statistics, player performances, goal trends, and any anomalies or standout moments during the matches.
+Once the data was prepared, I utilized popular Python libraries such as Pandas  and plotly to conduct exploratory data analysis. I delved into team statistics, player performances and any anomalies or standout moments during the matches.
 
 Visualizations played a crucial role in presenting the findings effectively. Using plotly, I created insightful charts and graphs to illustrate trends, patterns, and key statistics. This not only made the analysis more accessible but also provided a visual narrative for the World Cup 2023 story.
 
