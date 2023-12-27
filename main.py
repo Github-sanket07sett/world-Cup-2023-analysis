@@ -11,10 +11,13 @@ figure = px.bar(data,x=data["match winner"],title="Number of Matches Won by team
  "orange", "blue", "blue", "yellow", "orange","blue"])
 figure.show()
 #Number of mom awards
-figure=px.bar(data,x=data["MoM"],title="man of the match in 2023 world cup")
+figure=px.bar(data,x=data["MoM"],title="man of the match in 2023 world cup",color="MoM")
 figure.show()
 #highest scorer in total matches
 figure=px.bar(data,x=data["highest scorer"],y=data["runs"],color="highest scorer")
+figure.show()
+# best bowler in each match
+figure=px.bar(data,x=data["highest wickets"],title=" best bowler in world cup 2023",color="highest wickets")
 figure.show()
 #TOSS DECISIONS
 toss = data["Toss decision"].value_counts()
