@@ -1,10 +1,33 @@
-# world-Cup-2023-analysis
- For the Criicket  World Cup 2023 data analysis project, I used Python to explore and analyze various aspects of the tournament. The project aimed to uncover interesting insights and patterns within the data to provide a comprehensive understanding of the event.
+#  Cricket World-Cup-2023-analysis
+### Project overview
+This Cricket World Cup Data Analysis project aims to provide a comprehensive understanding of historical tournament data, offering valuable insights into team and player performances. The findings will contribute to a deeper appreciation of the dynamics of cricket on the world stage.
 
-I began by collecting and cleaning the dataset, ensuring that the information was accurate and ready for analysis. The dataset included details such as team performance, player statistics, match outcomes, and other relevant information.
+### Data Sources
+Gather data from reliable sources such as official cricket (https://www.cricketworldcup.com/)available online.
 
-Once the data was prepared, I utilized popular Python libraries such as Pandas  and plotly to conduct exploratory data analysis. I delved into team statistics, player performances and any anomalies or standout moments during the matches.
+### Tools & Technologies
+1.Python: Pandas, Matplotlib,Plotly for data manipulation and visualization.
 
-Visualizations played a crucial role in presenting the findings effectively. Using plotly, I created insightful charts and graphs to illustrate trends, patterns, and key statistics. This not only made the analysis more accessible but also provided a visual narrative for the World Cup 2023 story.
+2.Jupyter Notebooks for interactive and iterative analysis.
 
-Some specific areas of focus included team rankings, highest scorers, match outcomes etc. By employing statistical measures and visualizations, I was able to draw meaningful conclusions about team dynamics, and overall tournament dynamics.
+3.Excel: Data Cleaning.
+
+### Data cleaning/Preparation
+In the data preparation phase,we performed the following tasks:
+1. Data Loading and inspection
+2. Handling missing values
+3. Data cleaning and formatting
+
+### Exploratory Data Analysis
+EDA involves some answer key questions, such as:
+1. Who was the Best scorer in each match?
+2. Who was the Best bowler in each match?
+3. Which was the Best stadium to bat first?
+4. Which was the best stadium to bowl first?
+5. Who won the most MOMs in the tournament?
+### RESULTS
+1. Daryl Mitchell was the Best scorer in each match(3 times)
+2. Adam Zampa was the Best bowler in each match(5 times)
+3. Wankhede stadium was the best stadium to bat first
+4. Ekana stadium was the best stadium to bowl first
+5. Travis head won the most MOMs in the tournament(3 times) 
