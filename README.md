@@ -1,6 +1,12 @@
 #  Cricket World-Cup-2023-analysis
+## Table of Contents
+- [Project overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [RESULTS](#results)
+
 ### Project overview
-This Cricket World Cup Data Analysis project aims to provide a comprehensive understanding of historical tournament data, offering valuable insights into team and player performances. The findings will contribute to a deeper appreciation of the dynamics of cricket on the world stage.
+This Cricket World Cup Data Analysis project aims to provide a comprehensive understanding of historical tournament data, offering valuable insights into team and player performances. The findings will contribute to a deeper appreciation of the dynamics of cricket on the world stage
 
 ### Data Sources
 Gather data from reliable sources such as official cricket (https://www.cricketworldcup.com/)available online.
