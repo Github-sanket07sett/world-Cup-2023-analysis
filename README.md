@@ -36,4 +36,4 @@ EDA involves some answer key questions, such as:
 2. Adam Zampa was the Best bowler in each match(5 times)
 3. Wankhede stadium was the best stadium to bat first
 4. Ekana stadium was the best stadium to bowl first
-5. Travis head won the most MOMs in the tournament(3 times) 
+5. Travis head & Mohammad Shami won the most MOMs in the tournament(3 times) 
