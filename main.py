@@ -89,3 +89,6 @@ plt.title("average wickets in each stadium")
 plt.xlabel('venue')
 plt.ylabel('Average wickets')
 plt.legend(['1st innings wickets','2nd innings wickets'])
+# Most MOMs w.r.t profile
+figure=px.bar(data,x=data['Profile'],title="Most MOMs w.r.t Profile",color='Profile',color_discrete_sequence=["blue","red","orange","yellow"])
+figure.show()
