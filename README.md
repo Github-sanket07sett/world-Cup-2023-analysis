@@ -14,7 +14,7 @@ Gather data from reliable sources such as official cricket (https://www.cricketw
 ### Tools & Technologies
 1.Python: Pandas, Matplotlib,Plotly for data manipulation and visualization.
 
-2.Jupyter Notebooks for interactive and iterative analysis.
+2.google colab for interactive and iterative analysis.
 
 3.Excel: Data Cleaning.
 
