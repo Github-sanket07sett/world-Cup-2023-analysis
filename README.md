@@ -17,7 +17,8 @@ Gather data from reliable sources such as official cricket (https://www.cricketw
 2.google colab for interactive and iterative analysis.
 
 3.Excel: Data Cleaning.
-4.MYSQL: Iterative analysis
+
+4.MYSQL: Iterative analysis.
 
 
 ### Data cleaning/Preparation
