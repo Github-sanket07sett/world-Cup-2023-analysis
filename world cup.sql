@@ -50,6 +50,7 @@ SELECT sum(`highest scorer2`) as hs,`highest scorer` FROM `wc`.`wc2023` group by
 #BEST Bowler award in matches
 SELECT count(`highest wickets`) as hw,`highest wickets` FROM `wc`.`wc2023` group by `highest wickets` order by hw desc limit 5;
 
-
+# Match winners according to their venue
+SELECT distinct(`match winner`),count(`match winner`),venue FROM `wc`.`wc2023` group by `match winner`,venue ;
 
 
