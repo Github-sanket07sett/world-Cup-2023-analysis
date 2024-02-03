@@ -50,4 +50,3 @@ EDA involves some answer key questions, such as:
 8. All rounder 3 time MoM in Kolkata and Batsman 3 time in Bengaluru
 9. India won 5 times each w.r.t won by (runs/wickets)
    Australia 4 times  won by runs and 5 times won by wickets
-11. 
