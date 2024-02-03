@@ -36,6 +36,9 @@ EDA involves some answer key questions, such as:
 4. Which was the best stadium to bowl first?
 5. Who won the most MOMs in the tournament?
 6. Which profile won the most MoMs in the tournament?
+7. MoM winners w.r.t Profile And match winners(india,Australia,South africa,New Zealand)?
+8. MoM winner w.r.t Profile and Venues?
+9. Match winner w.r.t Won by ?
 ### RESULTS
 1. Daryl Mitchell was the Best scorer in each match(3 times)
 2. Adam Zampa was the Best bowler in each match(5 times)
@@ -43,3 +46,8 @@ EDA involves some answer key questions, such as:
 4. Ekana stadium was the best stadium to bowl first
 5. Travis head & Mohammad Shami won the most MOMs in the tournament(3 times) 
 6. All rounder and Batsman are won the Most MoMs in the tournament.(15 times each)
+7. All rounders from Australia 6 time  And Batsman from 5 times MoM winners
+8. All rounder 3 time MoM in Kolkata and Batsman 3 time in Bengaluru
+9. India won 5 times each w.r.t won by (runs/wickets)
+   Australia 4 times  won by runs and 5 times won by wickets
+11. 
