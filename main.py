@@ -58,17 +58,12 @@ figure=px.bar(data,x=data["highest scorer"],y=data["runs"],color="highest scorer
 figure.show()
 figure=px.bar(data,x=data["highest wickets"],title=" best bowler in world cup 2023")
 figure.show()
-# comparison between two innings
-plt.figure(figsize=(45,10))
-x=data['Date']
-y=data['1st innings score']
-y1=data['2nd innings score']
-plt.xlabel('Date');
-plt.ylabel('runs');
-plt.title('Score in both innings')
-plt.plot(x,y,ls='--',marker='*',ms=12)
-plt.plot(x,y1,marker='o',ms=10)
-plt.legend(['1st innings score','2nd innings score'])
+#MOM winners of semi finalist teams w.r.t profile
+filter_data=data[data["match winner"].isin(["India","South Africa","Australia","New Zealand"])]
+grouped_data=filter_data .groupby(["match winner","Profile"])
+MoM_counts=grouped_data["Profile"].count().unstack()
+y=data["MoM"]
+print(MoM_counts)
 #AVERAGE SCORE IN EACH VENUE
 avg=data.groupby('Venue')['1st innings score'].mean()
 avg1=data.groupby('Venue')['2nd innings score'].mean()
