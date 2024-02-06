@@ -53,4 +53,17 @@ SELECT count(`highest wickets`) as hw,`highest wickets` FROM `wc`.`wc2023` group
 # Match winners according to their venue
 SELECT distinct(`match winner`),count(`match winner`),venue FROM `wc`.`wc2023` group by `match winner`,venue ;
 
+# MoM winners according to their profile and Venues
+SELECT count(`Profile`) as Total_MOMS,`Profile`, Venue FROM `wc`.`wc2023` group by `Profile`, Venue;
+
+# Mom WInners of teams with respect to profile
+SELECT count(`Profile`) as Total_MOMS,`Profile`, `match winner` FROM `wc`.`wc2023`  
+where `match winner` = 'India'  #you can put your team accordingly
+group by `Profile`;
+
+
+#Match winners according to won by
+SELECT distinct(`match winner`),count(`won by`),`won by` FROM `wc`.`wc2023` 
+group by `won by`,`match winner`;
+
 
