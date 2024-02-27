@@ -13,6 +13,9 @@ This Cricket World Cup Data Analysis project aims to provide a comprehensive und
 ### Live Dashboard
 https://www.novypro.com/project/world-cup-2023
 
+![Screenshot 2024-02-27 095404](https://github.com/Github-sanket07sett/world-Cup-2023-analysis/assets/137095374/5039f015-16ac-4c44-b345-a0157170eaff)
+
+
 ### Data Sources
 Gather data from reliable sources such as official cricket (https://www.cricketworldcup.com/)available online.
 
